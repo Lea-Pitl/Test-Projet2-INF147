@@ -15,6 +15,7 @@
 /*																	*/
 /********************************************************************/
 //test test
+//test test 2
 #define  DIM   4            // la largeur de la plaque (3x3 cases en tout)
 #define  VIDE  0            // la valeur de la case vide 
 #define  NBCOUPS  200  // le nombre de coups à faire pour mélanger la plaque initiale
