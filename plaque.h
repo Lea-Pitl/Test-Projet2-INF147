@@ -8,7 +8,7 @@
 /*                    INF 147 - Travail Pratique #2					*/
 /*																	*/
 /* Date de creation : 09/10/2019									*/
-/* Auteurs :	Léa PITAULT (PITL19579909)							*/
+/* Auteurs :	Lea PITAULT (PITL19579909)							*/
 /*				Daniel Nguyen (NGUYD								*/
 /*																	*/
 /*				Librairie pour la gestion des plaques				*/
@@ -19,7 +19,7 @@
 #define  VIDE  0            // la valeur de la case vide
 #define  NBCOUPS  200  // le nombre de coups à faire pour mélanger la plaque initiale
 
-/* Type global pour les 4 déplacements possibles */
+/* Type global pour les 4 deplacements possibles */
 typedef enum { NULLE = -1, HAUT, GAUCHE, BAS, DROITE } t_direction; //(-1,0,1,2,3)
 
 /* Type global pour la plaque de jeu */
