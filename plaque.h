@@ -8,24 +8,24 @@
 /*                    INF 147 - Travail Pratique #2					*/
 /*																	*/
 /* Date de creation : 09/10/2019									*/
-/* Auteurs :	Léa PITAULT (PITL19579909)							*/
+/* Auteurs :	LÃ©a PITAULT (PITL19579909)							*/
 /*				Daniel Nguyen (NGUYD								*/
 /*																	*/
 /*				Librairie pour la gestion des plaques				*/
 /*																	*/
 /********************************************************************/
-
+//test test
 #define  DIM   4            // la largeur de la plaque (3x3 cases en tout)
 #define  VIDE  0            // la valeur de la case vide 
-#define  NBCOUPS  200  // le nombre de coups à faire pour mélanger la plaque initiale
+#define  NBCOUPS  200  // le nombre de coups Ã  faire pour mÃ©langer la plaque initiale
 
-/* Type global pour les 4 déplacements possibles */
+/* Type global pour les 4 dÃ©placements possibles */
 typedef enum { NULLE = -1, HAUT, GAUCHE, BAS, DROITE } t_direction; //(-1,0,1,2,3)
 
 /* Type global pour la plaque de jeu */
 typedef int t_plaque[DIM][DIM];
 
-/* Constante qui illustre la plaque-solution à trouver */
+/* Constante qui illustre la plaque-solution Ã  trouver */
 #if (DIM==3)
 t_plaque SOLUTION = { {1, 2, 3}, {4, 5, 6}, {7, 8, VIDE} };
 #else
@@ -76,7 +76,7 @@ int changer_plaque(t_plaque pla, t_direction dir, int *py_0, int *px_0);
 /*
 AFFICHER_PLAQUE
 
-Fonction qui affiche simplement la plaque reçue à l’écran, « DIM » valeurs par ligne.
+Fonction qui affiche simplement la plaque reÃ§ue Ã  lâ€™Ã©cran, Â« DIM Â» valeurs par ligne.
 
 PARAMETRE : pla - la plaque de jeu (const t_plaque)
 Retour : Aucun
