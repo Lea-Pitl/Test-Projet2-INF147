@@ -15,9 +15,8 @@
 /*																	*/
 /********************************************************************/
 //test test
-//test test 2
 #define  DIM   4            // la largeur de la plaque (3x3 cases en tout)
-#define  VIDE  0            // la valeur de la case vide 
+#define  VIDE  0            // la valeur de la case vide
 #define  NBCOUPS  200  // le nombre de coups à faire pour mélanger la plaque initiale
 
 /* Type global pour les 4 déplacements possibles */
@@ -238,4 +237,3 @@ int evaluer_plaque(const t_plaque pla) {
 	}
 	return sum;
 }
-
